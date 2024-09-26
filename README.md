@@ -1,6 +1,6 @@
 # pond
-project group: Kacper, Oisin and Cyprian
-TU858
+project group: Kacper, Oisin and Cyprian.
+TU858.
 This project involves our client Lucas who requested a travel agency website with a snow theme.
 In this project we will provide the customers with scenic images of their desired destinations.
 Lucas's website will be of use to many customers of many different languages.
