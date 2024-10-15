@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
+div1
+{@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
 
 body {
   font-family: Libre Caslon Text;
@@ -153,6 +154,7 @@ input.hamburger-checkbox {
   width: 10vw;
   opacity: 0;
   height: 6vh;
+}
 }
 
 button{
