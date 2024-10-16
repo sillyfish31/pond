@@ -127,7 +127,7 @@
 
     .menu-links li:hover a 
     {
-        color: #89cff0;
+        color: black;
     }
 
     .menu-links li:first-child:hover a 
