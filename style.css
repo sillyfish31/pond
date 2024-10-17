@@ -195,3 +195,11 @@ button{
 
 button:hover{ background-color: RGBA(255, 255, 255, 1); } a{ font-size: 30px; } a:link { color: #00008B; } a:visited { color: #00008B; } a:hover { color: #00008B; } a:active { color: #0000FF; }
 
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
