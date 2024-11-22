@@ -221,7 +221,7 @@ hr {
   border: 1px dotted #ccc;
 }
 
-button {
+button3 {
   height: 50px;
   background: #89cff0;
   border: none;
@@ -232,6 +232,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+button3:hover {
   border: 2px solid black;
 }
