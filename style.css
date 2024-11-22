@@ -220,7 +220,12 @@ button:hover{ background-color: RGBA(255, 255, 255, 1); } a{ font-size: 30px; } 
   padding: 50px;
 }
 
-div.elem-group {
+body5 {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+   div.elem-group {
   margin: 20px 0;
 }
 
