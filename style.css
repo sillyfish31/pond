@@ -231,7 +231,7 @@ div.elem-group.inlined {
   margin-left: 1%;
 }
 
-label {
+label2 {
   display: block;
   font-family: 'Libre Caslon Text';
   padding-bottom: 10px;
@@ -261,7 +261,7 @@ hr {
   border: 1px dotted #ccc;
 }
 
-button {
+button4 {
   height: 50px;
   background: #89cff0;
   border: none;
@@ -272,6 +272,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+button4:hover {
   border: 2px solid black;
 }
