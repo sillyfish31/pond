@@ -86,31 +86,10 @@ body {
     <label for="phone">Your Phone Number</label>
     <input type="tel" id="phone" name="visitor_phone" placeholder="87 710 4258" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
   </div>
-  <hr>
-  <div class="elem-group inlined">
-    <label for="adult">Party Members</label>
-    <input type="number" id="adult" name="total_adults" placeholder="1"
-  </div>
-  <div class="elem-group inlined">
-    <label for="checkin-date">Check In</label>
-    <input type="date" id="checkin-date" name="checkin" required>
-  </div>
-  <div class="elem-group inlined">
-    <label for="checkout-date">Check Out</label>
-    <input type="date" id="checkout-date" name="checkout" required>
-  </div>
+
   <div class="elem-group">
-    <label for="room-selection">Place to book</label>
-    <select id="room-selection" name="room_preference" required>
-        <option value="">Choose a Room from the List</option>
-        <option value="connecting">Austria</option>
-        <option value="adjoining">Switzerland</option>
-    </select>
-  </div>
-  <hr>
-  <div class="elem-group">
-    <label for="message">Extra Info</label>
-    <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+    <label for="message">Message</label>
+    <textarea id="message" name="visitor_message" placeholder="Insert your question here." required></textarea>
   </div>
   <button3 type="submit">Book Your Stay With Snow Trails Travel Agency</button3>
 </form>
