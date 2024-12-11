@@ -72,7 +72,49 @@ body {
         <img class="marginauto" src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/279044662.jpg?k=48c68f8e8db92ba0910e2d3ad8b9c0acaa613a0f3eb1dbfd8ed0518262d53d47&o=&hp=1" alt="snowy text" />
     </div>
         </article>  
-        <P>To contact us for bookings please email @SnowTrailsTravelAgency@gmail.com.</P>
+        <P><p>
+  <form action="reservation.php" method="post">
+  <div class="elem-group">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="visitor_name" placeholder="Oisin Sheerin" pattern=[A-Z\sa-z]{3,20} required>
+  </div>
+  <div class="elem-group">
+    <label for="email">Your E-mail</label>
+    <input type="email" id="email" name="visitor_email" placeholder="oisinsheerin56@email.com" required>
+  </div>
+  <div class="elem-group">
+    <label for="phone">Your Phone Number</label>
+    <input type="tel" id="phone" name="visitor_phone" placeholder="87 710 4258" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+  </div>
+  <hr>
+  <div class="elem-group inlined">
+    <label for="adult">Party Members</label>
+    <input type="number" id="adult" name="total_adults" placeholder="1"
+  </div>
+  <div class="elem-group inlined">
+    <label for="checkin-date">Check In</label>
+    <input type="date" id="checkin-date" name="checkin" required>
+  </div>
+  <div class="elem-group inlined">
+    <label for="checkout-date">Check Out</label>
+    <input type="date" id="checkout-date" name="checkout" required>
+  </div>
+  <div class="elem-group">
+    <label for="room-selection">Place to book</label>
+    <select id="room-selection" name="room_preference" required>
+        <option value="">Choose a Room from the List</option>
+        <option value="connecting">Austria</option>
+        <option value="adjoining">Switzerland</option>
+    </select>
+  </div>
+  <hr>
+  <div class="elem-group">
+    <label for="message">Extra Info</label>
+    <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+  </div>
+  <button3 type="submit">Book Your Stay With Snow Trails Travel Agency</button3>
+</form>
+    </p></P>
 
         
         <div class="footer">
